@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
 
   s.subspec "AdMob" do |admob|
     admob.dependency 'Tapdaq/AdMobAdapter'
-    admob.dependency "Google-Mobile-Ads-SDK", "7.36.0"
+    admob.dependency "Google-Mobile-Ads-SDK", "~> 7.36.0"
   end
   
   s.subspec "AdMobAdapter" do |adapter|
